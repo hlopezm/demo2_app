@@ -23,6 +23,3 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor'
 end
-
-gem 'rails_log_stdout', github: 'Heroku/rails_log_stdout'
-gem 'rails3_serve_static_assets', github: 'Heroku/rails3_serve_static_assets'

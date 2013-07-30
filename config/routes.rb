@@ -1,4 +1,7 @@
 Demo2App::Application.routes.draw do
+  
+  root to: 'index#index'
+  
   resources :microposts
 
   resources :users
