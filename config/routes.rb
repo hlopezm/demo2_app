@@ -1,6 +1,6 @@
 Demo2App::Application.routes.draw do
   
-  root to: 'index#index'
+root :to => 'pages#home'
   
   resources :microposts
 
